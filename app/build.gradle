@@ -73,6 +73,6 @@ afterEvaluate {
             dx.additionalParameters = []
         }
         dx.additionalParameters += '--multi-dex'
-//        dx.additionalParameters += "--main-dex-list=$projectDir/multidex.keep".toString()
+        dx.additionalParameters += "--main-dex-list=$projectDir/multidex.keep".toString()
     }
 }
